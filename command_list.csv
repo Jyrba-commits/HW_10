@@ -1,0 +1,26 @@
+    1  touch text_ignore.txt
+    2  echo "text_ignore.txt" >> .gitignore
+    3  git status
+    4  echo "text_ignore.txt" > .gitignore
+    5  echo "text_ignore.txt" .gitignore
+    6  git status
+    7  git add
+    8  git add .
+    9  git commit -m "HomeWork Tast 1"
+   10  touch main_test.txt
+   11  git add .
+   12  git commit -m "HomeWork Tast 2"
+   13  git log --oneline
+   14  git checkpoint -b develop
+   15  git checkout -b develop
+   16  touch develop_test.txt
+   17  git add .
+   18  git commit -m "Home Work Task 3"
+   19  echo "just a small change" > develop_test.txt
+   20  git status
+   21  git add .
+   22  git commit -m "Home Work Task 3 Final"
+   23  git checkout main
+   24  git merge develop
+   25  git log --oneline --graph --all
+   26  history > command_list.csv
