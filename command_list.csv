@@ -24,3 +24,12 @@
    24  git merge develop
    25  git log --oneline --graph --all
    26  history > command_list.csv
+   27  git add .
+   28  git commit -m "Home Work Task 5"
+   29  git push origin main
+   30  cd C:\Users\King\Desktop\HomeWork GIT
+   31  cd "C:\Users\King\Desktop\HomeWork GIT"
+   32  mv HW_10 HW_10_Backup
+   33  git clone https://github.com/Jyrba-commits/HW_10.git
+   34  cd HW_10
+   35  history > command_list.csv
